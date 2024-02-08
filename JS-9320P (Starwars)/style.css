@@ -1,0 +1,41 @@
+body {
+  background: url(assets/images/star_wars_4k_5k_hd_star_wars-5120x2880.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  text-align: center;
+}
+
+#renderCharactersButton {
+  margin-left: 52rem;
+  margin-top: 2rem;
+}
+.imgBox {
+  text-align: center;
+}
+.pageImgCenter {
+  width: 65rem;
+  height: 38rem;
+  margin-top: 7rem;
+}
+
+.pageCard {
+  background: url("img/yıldız.webp");
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 2rem;
+  }
+  #renderCharactersButton {
+    margin-left: 6rem;
+  }
+}
